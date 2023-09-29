@@ -7,7 +7,7 @@
     --color-grey-3: rgba(112, 112, 112, 1);
     --color-green: rgba(85, 223, 180, 1);
     --color-blue: rgba(7, 172, 230, 1);
-    --primary-color: rgb(8, 166,288, 1 );
+    --primary-color: rgb(8, 166, 228, 1 );
     --color-primary-shadow: rgb(7, 172, 230, .16);
     --color-light-black:rgba(19, 37, 59, 1);
     --color-redish-1: rgba(235, 71, 110, 1);
@@ -18,3 +18,42 @@
     
 }
 
+.intro{}
+
+.header {
+    background-color: var(--color-white);
+    box-shadow: 0 .1875rem .375rem #00000029;
+    width: 100%;
+}
+.header .header__inner {
+
+}
+.header .header__logo {
+
+}
+
+.menu{}
+.menu .menu__item.menu__item--active{}
+.menu .menu__item{}
+
+.hero{}
+.hero .hero__bg{
+    background-size: cover;
+    background: url(../images/image.png) no-repeat center;
+    min-height: 100vh;
+    margin-top: -90px;
+
+}
+
+.hero .hero__inner{}
+.hero .hero__hdl{}
+.hero .hero__lead{}
+
+.hero .hero__btn{}
+
+.info{}
+.info .info__hdl{}
+.info .info__item{}
+.info .info__box{}
+.info .info lead{}
+.info .info numb{}
